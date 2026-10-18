@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Structure and Algorithms</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Data Structure and Algorithms</h1>
+
+        <div class="list" id="list">
+            <!-- <div class="item"></div> -->
+        </div>
+
+        <div class="cursor" id="cursor-1" style="display: none;">^</div>
+        <div class="cursor" id="cursor-2" style="display: none;">^</div>
+
+        <div class="control">
+            <button id="sort-bubble">Bubble Sort</button>
+            <button id="sort-selection">Selection Sort</button>
+            <button id="sort-merge">Merge Sort</button>
+            <button id="list-shuffle">Shuffle List</button>
+        </div>
+
+        <div class="control">
+            <input type="text" id="search-value">
+            <button id="search-linear">Linear Search</button>
+            <span></span>
+            <button id="search-binary">Binary Search</button>
+        </div>
+
+        <div class="control">
+            <input type="text" id="list-add-value">
+            <button id="list-add">Add</button>
+            <button id="list-reset">Reset</button>
+            <button id="list-add-random">Add Random</button>
+        </div>
+
+        <div id="log"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
